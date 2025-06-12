@@ -1,0 +1,37 @@
+
+.container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.link-btn {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #000000;
+    color: rgb(247, 155, 8);
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.dashboard-link {
+    background-color: #000000;
+}
+
+.welcome-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  background-clip: text; /* penting untuk kompatibilitas */
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
