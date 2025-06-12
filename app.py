@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -6,9 +6,9 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route('/dashboard')
+@app.route('/dashboard')  # <--- Tambahkan ini
 def dashboard():
-    return render_template('dashboard.html')
+    return render_template('dashboard.html')  # <--- Pastikan sesuai dengan nama file di templates
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
